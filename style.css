@@ -1,0 +1,138 @@
+body{
+    background-color: aliceblue;
+    display: grid;
+    place-items: center;
+}
+#title{
+    margin: 3vh;
+    font-size: 4rem;
+    color: rgb(12, 2, 50);
+}
+.container{
+    width: 70vh;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    display: none;
+    margin-top: 7vh;
+    border-radius: 4px;
+    border: 1px solid rgb(30, 4, 74);
+    box-shadow: rgb(152, 149, 155) 0px 1px 10px 1px;
+}
+.main-container div{
+    display: inline-block;
+}
+.start-pop{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.container h1{
+    color: rgb(11, 3, 69);
+    font-size: 3.2rem;
+    
+}
+.container input[type="text"]{
+    height: 7vh;
+    width: 40vh;
+    font-size: 1.4rem;
+    text-align: center;
+    margin-top: 3.5vh;
+    border-radius: 4px;
+    border: 1px solid gray;
+}
+.container button{
+    padding: 1vh 2vh;
+    width: max-content;
+    height: max-content;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-top: 8vh;
+    font-family: cursive;
+}
+.main-container{
+    background-color: rgb(231, 255, 255);
+    width: 60%;
+    max-width: 60vh;
+    height: 60vh;
+    border: 2px solid gray;
+    border-radius: 1%;
+    padding:10px;
+    box-shadow: rgb(92, 15, 168) 0px 1px 10px 1px;
+}
+
+.btn{
+    width: 33.3%;
+    height: 33.3%;
+    border: 1px solid rgb(71, 6, 136);
+    margin-left: -4px;
+    padding: 0;
+    color: blue;
+    font-size: 5rem;
+    font-size: 6.43rem;
+    background-color: rgb(231, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+.btn:hover{
+    background-color: rgba(46, 222, 22, 0.694);
+}
+.btn1,.btn2,.btn3{
+    border-top: none;
+}
+.btn1,.btn4,.btn7{
+    border-left: none;
+}
+.btn3,.btn6,.btn9{
+    border-right: none;
+}
+.btn7,.btn8,.btn9{
+    border-bottom: none;
+}
+.btn h1{
+    color: blue;
+    font-size: 5rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: cursive;
+}
+
+.pop{
+    border: 1px solid black;
+    width: 71vh;
+    position: absolute;
+    height: 80vh;
+    margin-top: 2vh;
+    border-radius: 6px;
+    background-color: rgb(255, 255, 255);
+    display: none;
+    box-shadow: rgb(152, 149, 155) 0px 1px 10px 1px;
+}
+
+.pop-display{
+    display: block;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#win-logo{
+    width: 30%;
+    margin-top: 2vh;
+}
+.pop h1{
+    font-size: 300%;
+    margin-top: -0.5vh;
+}
+#rst-btn{
+    width: 35%;
+    height: 8vh;
+    border-radius: 10px;
+    border: 2px solid blue;
+    background-color: greenyellow;
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-family: cursive;
+}

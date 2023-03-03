@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tic Tac Toe</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h2 id="title">Tic Tac Toe</h2>
+    <div class="container start-pop" id="start-pop">
+        <h1>Tic Tac Toe</h1>
+        <input type="text" autocomplete="off" placeholder="Enter Player 1 Name" id="player1">
+        <input type="text" autocomplete="off" placeholder="Enter Player 2 Name" id="player2">
+        <button onclick="startGame()">Start Game</button>
+    </div>
+    <div class="main-container">
+        <button class="btn btn1" onclick="myFunction('1')" id="btn1" value="blank">&nbsp;</button>
+        <button class="btn btn2" onclick="myFunction('2')" id="btn2" value="blank">&nbsp;</button>
+        <button class="btn btn3" onclick="myFunction('3')" id="btn3" value="blank">&nbsp;</button><br>
+        <button class="btn btn4" onclick="myFunction('4')" id="btn4" value="blank">&nbsp;</button>
+        <button class="btn btn5" onclick="myFunction('5')" id="btn5" value="blank">&nbsp;</button>
+        <button class="btn btn6" onclick="myFunction('6')" id="btn6" value="blank">&nbsp;</button><br>
+        <button class="btn btn7" onclick="myFunction('7')" id="btn7" value="blank">&nbsp;</button>
+        <button class="btn btn8" onclick="myFunction('8')" id="btn8" value="blank">&nbsp;</button>
+        <button class="btn btn9" onclick="myFunction('9')" id="btn9" value="blank">&nbsp;</button>
+    </div>
+    <div class="pop" id="pop">
+        <img src="winlogo.png" id="win-logo">
+        <h1>Winner !</h1>
+        <h1 id="winner-name">Player 1</h1>
+        <button id="rst-btn" onclick="restartGame()">RESTART</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
