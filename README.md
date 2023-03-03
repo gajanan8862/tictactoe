@@ -1,2 +1,2 @@
 # tictactoe
-i develop tictactoe game using html,css and javascript
+i developed tictactoe game using html,css and javascript
